@@ -4,6 +4,6 @@ import one.digitalinnovation.digionebank.Gerente
 import one.digitalinnovation.digionebank.Relatorios
 
 fun main() {
-    val func = Gerente("Anna Pierina Patriarca Piccini", "01273966910", 4000.00);
+    val func = Gerente("Anna Pierina Patriarca Piccini", "01273966910", 4000.00, "123");
     Relatorios.printRelatorio(func);
 }
